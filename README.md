@@ -20,27 +20,14 @@ These projects are built on a production-grade home cybersecurity lab featuring 
 
 ---
 
-### 🏗️ [Home Lab Infrastructure](https://github.com/tyceerickson/home-lab-infrastructure)
-**Foundation | Documentation | Network Architecture**
+### 🛡️ [AI-Powered SOC Pipeline](https://github.com/tyceerickson/ai-soc-pipeline)
+**AI + Security Operations | SIEM | Dashboard**
 
-Complete professional documentation of a segmented home cybersecurity lab. Covers VLAN architecture, firewall policy, IP addressing, port mapping, security design philosophy, and recovery procedures.
+Capstone project — a three-phase AI-powered security operations pipeline built on real lab infrastructure and real attack data.
 
-- 4 isolated VLANs (Management / Attacker / Victim / Enterprise)
-- OPNsense stateful firewall with inter-VLAN routing
-- Cisco Catalyst 2960, Netgear managed switch, Mac UTM hypervisor
-- Professional documentation written to enterprise wiki standards
-
----
-
-### 🤖 [AI Network Traffic Classifier](https://github.com/tyceerickson/ai-traffic-classifier)
-**Machine Learning | Network Security | Python**
-
-End-to-end ML pipeline that classifies network traffic as malicious or benign using a dataset generated entirely within the home lab. Model trained locally on an Alienware m16 R2 (RTX 4070, 64GB RAM).
-
-- Generated real malicious traffic (Nmap, Metasploit, credential attacks) and benign traffic
-- Captured and labeled dataset using Wireshark / tshark
-- Built and trained a Random Forest classifier using scikit-learn
-- Full Jupyter notebook walkthrough with evaluation metrics and visualizations
+- **Phase 1 — AI Firewall Log Analyzer:** Python tool that feeds OPNsense logs to an AI API and returns plain-English threat summaries
+- **Phase 2 — SIEM + AI Alert Summarizer:** Wazuh deployed on Ubuntu Server ingesting logs from all lab sources, with an AI layer that prioritizes and explains alerts
+- **Phase 3 — SOC Dashboard:** Flask web dashboard aggregating all pipeline outputs with real-time alert visualization and AI-generated executive summaries
 
 ---
 
@@ -56,14 +43,27 @@ Deployed a honeypot on the isolated victim VLAN to capture and analyze real atta
 
 ---
 
-### 🛡️ [AI-Powered SOC Pipeline](https://github.com/tyceerickson/ai-soc-pipeline)
-**AI + Security Operations | SIEM | Dashboard**
+### 🤖 [AI Network Traffic Classifier](https://github.com/tyceerickson/ai-traffic-classifier)
+**Machine Learning | Network Security | Python**
 
-Capstone project — a three-phase AI-powered security operations pipeline built on real lab infrastructure and real attack data.
+End-to-end ML pipeline that classifies network traffic as malicious or benign using a dataset generated entirely within the home lab. Model trained locally on an Alienware m16 R2 (RTX 4070, 64GB RAM).
 
-- **Phase 1 — AI Firewall Log Analyzer:** Python tool that feeds OPNsense logs to an AI API and returns plain-English threat summaries
-- **Phase 2 — SIEM + AI Alert Summarizer:** Wazuh deployed on Ubuntu Server ingesting logs from all lab sources, with an AI layer that prioritizes and explains alerts
-- **Phase 3 — SOC Dashboard:** Flask web dashboard aggregating all pipeline outputs with real-time alert visualization and AI-generated executive summaries
+- Generated real malicious traffic (Nmap, Metasploit, credential attacks) and benign traffic
+- Captured and labeled dataset using Wireshark / tshark
+- Built and trained a Random Forest classifier using scikit-learn
+- Full Jupyter notebook walkthrough with evaluation metrics and visualizations
+
+---
+
+### 🏗️ [Home Lab Infrastructure](https://github.com/tyceerickson/home-lab-infrastructure)
+**Foundation | Documentation | Network Architecture**
+
+Complete professional documentation of a segmented home cybersecurity lab. Covers VLAN architecture, firewall policy, IP addressing, port mapping, security design philosophy, and recovery procedures.
+
+- 4 isolated VLANs (Management / Attacker / Victim / Enterprise)
+- OPNsense stateful firewall with inter-VLAN routing
+- Cisco Catalyst 2960, Netgear managed switch, Mac UTM hypervisor
+- Professional documentation written to enterprise wiki standards
 
 ---
 
