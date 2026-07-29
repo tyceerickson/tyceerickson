@@ -2,7 +2,7 @@
 
 I'm from Morgan, Utah with an Eagle Scout, bodybuilder, and former bull rider background. I didn't start in tech. I spent years diagnosing and repairing heavy equipment worth $100,000+ before finding my way into cybersecurity. That background taught me how to learn complex systems fast, stay calm under pressure, and finish what I start. I bring the same approach to everything I build here.
 
-I'm entering **Carnegie Mellon University's MSISPM program (Fall 2026)** after completing my BS in Management Information Systems at Weber State University (GPA: 3.74). My focus is the intersection of **AI and security operations** not just studying concepts, but deploying real infrastructure, running real attacks, and building real tools on top of it all.
+I'm entering **Carnegie Mellon University's MSISPM program (Fall 2026)** after completing my BS in Management Information Systems at Weber State University (GPA: 3.77). My focus is the intersection of **AI and security operations** not just studying concepts, but deploying real infrastructure, running real attacks, and building real tools on top of it all.
 
 ---
 
